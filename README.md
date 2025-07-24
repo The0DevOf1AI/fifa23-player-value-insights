@@ -41,9 +41,9 @@ pip install pandas numpy seaborn bokeh
 
 ## 🧪 How to Run
 
-Ensure your `fifa23.csv` file is in the same directory. Then, simply run the Python script:
+Ensure your `fifa23.csv` file is in the same directory. Then, open the notebook:
 ```bash
-python analysis.py
+jupyter notebook FifaProject.ipynb
 ```
 
 The script will:
@@ -56,7 +56,7 @@ The script will:
 ## 📁 File Structure
 
 ```
-├── FifaProject.ipynb          # main script with visualization
+├── FifaProject.ipynb    # main script with visualization
 ├── fifa23.csv           # input dataset
 └── README.md            # this file
 ```
