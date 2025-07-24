@@ -4,24 +4,6 @@ A clean, interactive dashboard to explore player wages vs values in FIFA 23 us
 
 ---
 
-## 📦 Project Structure
-
-.
-├── data/
-│ └── fifa23.csv # Raw FIFA 23 dataset
-├── notebooks/ # Exploration notebooks
-│ └── analysis.ipynb
-├── src/ # Core scripts
-│ └── visualize.py # Main data cleaning & plotting logic
-├── requirements.txt # Required Python packages
-└── README.md # Project overview & instructions
-
-yaml
-Copy
-Edit
-
----
-
 ## 🧠 Overview
 
 1. **Data Loading** – Reads in `fifa23.csv` with Pandas.
