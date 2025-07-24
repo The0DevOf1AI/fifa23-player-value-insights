@@ -70,11 +70,6 @@ The script will:
 - seaborn
 - bokeh
 
-Install all with:
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 ## 📃 License
