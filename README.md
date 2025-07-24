@@ -1,19 +1,82 @@
-# FIFA 23 Player Analysis
 
-A clean, interactive dashboard to explore player wages vs values in FIFA 23 using **Pandas**, **Seaborn**, and **Bokeh**.
+# ⚽ FIFA23 Wage vs Value Interactive Visualization
+
+This project analyzes and visualizes FIFA23 player data, particularly focusing on the relationship between players' wages and their transfer values. It combines the power of **Pandas**, **Seaborn**, and **Bokeh** for both static and interactive visual exploration.
 
 ---
 
-## 🧠 Overview
+## 📌 Features
 
-1. **Data Loading** – Reads in `fifa23.csv` with Pandas.
-2. **Data Cleaning** – Strips currency symbols (€, K, M); converts to float.
-3. **New Columns** – Creates `Value_clean`, `Wage_clean`, and `Wage_minus_Value`.
-4. **Exploratory Analysis** – Uses Seaborn for static distribution and scatter plots.
-5. **Interactive Visualization** – Builds a Bokeh scatter plot with hover tooltips.
+- Load and inspect FIFA23 dataset using `pandas`
+- Clean and preprocess monetary columns ("Value", "Wage")
+- Compute new column: wage minus value difference
+- Visualize data using `seaborn` (static) and `bokeh` (interactive)
+- Interactive plot includes zoom, pan, hover tooltips
 
-## 🔍 Requirements
-1. Python 3.8+
-2. numpy, pandas, seaborn
-3. bokeh>=3.0 (uses width/height, not deprecated plot_width)
-4. (optional) jupyter for notebooks
+---
+
+## 📊 Sample Visualization
+
+The scatter plot displays:
+- **X-axis**: Player Wages (€)
+- **Y-axis**: Player Market Values (€)
+- Color-coded, interactive data points with player names on hover
+
+---
+
+## 🛠️ Setup
+
+### 1. Clone this repository
+```bash
+git clone https://github.com/your-username/fifa23-wage-vs-value.git
+cd fifa23-wage-vs-value
+```
+
+### 2. Install dependencies
+```bash
+pip install pandas numpy seaborn bokeh
+```
+
+---
+
+## 🧪 How to Run
+
+Ensure your `fifa23.csv` file is in the same directory. Then, simply run the Python script:
+```bash
+python analysis.py
+```
+
+The script will:
+- Load and process the dataset
+- Display a static scatterplot using Seaborn
+- Launch an interactive Bokeh scatterplot in your browser
+
+---
+
+## 📁 File Structure
+
+```
+├── FifaProject.ipynb          # main script with visualization
+├── fifa23.csv           # input dataset
+└── README.md            # this file
+```
+
+---
+
+## 📚 Dependencies
+
+- numpy
+- pandas
+- seaborn
+- bokeh
+
+Install all with:
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 📃 License
+
+This project is open source and free to use under the MIT License.
